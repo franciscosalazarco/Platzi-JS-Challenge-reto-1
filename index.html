@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Reto 1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Reto 1</h1>
+    </header class="header">
+    <section class="whole__hero">
+      <section class="hero">
+        <form action=""class="hero__container">
+          <h3>1. ¿Cuántas veces vas al cine al mes?</h3>
+          <input id="InputCineTime" type="number" placeholder="Ingresa el número de veces:"/>
+          <h3>2. ¿Qué plataformas de streaming usas?</h3>
+          <label for="">Escoge las plataformas que usas:</label>
+            <label for="option-1">
+              <input
+                type="checkbox"
+                name="option"
+                value="netflix"
+                id="option-1"
+              />
+              Netflix
+            </label>
+            <label for="option-2">
+              <input type="checkbox" name="option" value="prime" id="option-2" />
+              Amazon Prime
+            </label>
+            <label for="option-3">
+              <input type="checkbox" name="option" value="disney" id="option-3" />
+              Disney+
+            </label>
+            <label for="option-4">
+              <input type="checkbox" name="option" value="hbo" id="option-4" />
+              HBO max
+            </label>
+            <label for="option-5">
+              <input
+                type="checkbox"
+                name="option"
+                value="paramount"
+                id="option-5"
+              />
+              Paramount+
+            </label>
+            <label for="option-6">
+              <input type="checkbox" name="option" value="apple" id="option-6" />
+              Apple TV+
+            </label>
+            <label for="option-7">
+              <input
+                type="checkbox"
+                name="option"
+                value="directv"
+                id="option-7"
+              />
+              DIRECTV GO
+            </label>
+            <label for="option-8">
+              <input
+                type="checkbox"
+                name="option"
+                value="youtube"
+                id="option-8"
+              />
+              Youtube Premium
+            </label>
+          <h3>3. Ahora da clic y descubre como ahorras más</h3>
+          <button type="button" onclick="onClickButtonVerification()">Conocer</button>
+          <p id="result"></p>
+        </form>
+      </section>
+    </section>
+    <script src="./functions.js"></script>
+  </body>
+</html>
+

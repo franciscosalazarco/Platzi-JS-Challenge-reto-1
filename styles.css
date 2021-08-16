@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background-color: #fcf0cc;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whole__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #bbdbb4;
+  border: 2px solid black;
+  border-radius: 20px;
+  min-height: 600px;
+  width: 500px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  height: 30px;
+  font-family: "Muli", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0px;
+  }
+}
